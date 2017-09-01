@@ -13,9 +13,12 @@ To be keep things simple and optimized, the datastructure is a simple tuple with
 An example is given below:
 ```python
 ifTableEntry = (
-  'Index': ('1', 'INTEGER'),
-  'Descr': ('2', 'OCTETSTR'),
-  'Type': ('3', 'INTEGER'),
-  'MTU': ('4', 'INTEGER'),
+    ".1.3.6.1.2.1.2.2.1",
+    {
+        'Index': ('1', 'INTEGER'),
+        'Descr': ('2', 'OCTETSTR'),
+        'Type': ('3', 'INTEGER'),
+        'MTU': ('4', 'INTEGER'),
+    }	
 )
 ```
