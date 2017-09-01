@@ -1,4 +1,4 @@
-from easysnmp import *
+from easysnmp import Session
 
 
 class Session(Session):
@@ -77,4 +77,3 @@ class Session(Session):
             self.get_tbl_row(table, index, *fields)
             for index in indexes
         ]
-        pass
