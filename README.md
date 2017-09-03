@@ -19,6 +19,9 @@ ifTableEntry = (
         'Descr': ('2', 'OCTETSTR'),
         'Type': ('3', 'INTEGER'),
         'MTU': ('4', 'INTEGER'),
-    }	
+    }
 )
 ```
+
+# Special Thanks To
+- Contributors of [easysnmp](https://github.com/kamakazikamikaze/easysnmp.git "easysnmp")
