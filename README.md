@@ -23,5 +23,28 @@ ifTableEntry = (
 )
 ```
 
+The possible easysnmp typestr are:
+
+|Easysnmp Typestr|
+--
+|OBJECTID|
+|OCTETSTR|
+|INTEGER|
+|INTEGER32|
+|UNSIGNED32|
+|NETADDR|
+|IPADDR|
+|COUNTER|
+|GAUGE|
+|TICKS|
+|OPAQUE|
+|COUNTER64|
+|NULL|
+|UINTEGER|
+|NOTIF|
+|BITS|
+|TRAP|
+
+
 # Special Thanks To
 - Contributors of [easysnmp](https://github.com/kamakazikamikaze/easysnmp.git "easysnmp")
