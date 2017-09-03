@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package = 'teasysnmp'
-version = '0.1'
+version = '0.2'
 
 setup(name=package,
       version=version,
@@ -13,4 +13,17 @@ setup(name=package,
       packages=["teasysnmp"],
       install_requires=[
           "easysnmp"
+      ],
+      keywords=[
+          "system",
+          "networking",
+          "snmp",
+          "helpers",
+          "teasysnmp"
+      ],
+      classifiers=[
+          "Development Status :: 4 - Beta",
+          "Operating System :: OS Independent",
+          "Topic :: System :: Networking",
+          "Topic :: System :: Networking :: Monitoring"
       ])
