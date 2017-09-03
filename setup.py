@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package = 'teasysnmp'
-version = '0.2'
+version = '0.3'
 
 setup(name=package,
       version=version,
