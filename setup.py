@@ -1,11 +1,15 @@
 from setuptools import setup
 
 package = 'teasysnmp'
-version = '0.3'
+version = '0.4'
+
+with open('README.rst') as f:
+    long_description = f.read()
 
 setup(name=package,
       version=version,
       description="Extended easysnmp with helpers to work with snmp tables",
+      long_description=long_description,
       license="MIT",
       author="The Binary",
       author_email="binary4bytes@gmail.com",
