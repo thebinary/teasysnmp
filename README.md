@@ -26,7 +26,7 @@ ifTableEntry = (
 The possible easysnmp typestr are:
 
 |Easysnmp Typestr|
---
+|--|
 |OBJECTID|
 |OCTETSTR|
 |INTEGER|
