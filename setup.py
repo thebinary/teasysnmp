@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package = 'teasysnmp'
-version = '0.5'
+version = '0.6'
 
 with open('README.rst') as f:
     long_description = f.read()
