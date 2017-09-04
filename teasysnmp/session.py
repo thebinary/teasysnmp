@@ -33,7 +33,7 @@ class Session(Session):
         :rtype:
 
         """
-        snmp_result = self.__get_tbl_row(self, table, index, *fields)
+        snmp_result = self.__get_tbl_row(table, index, *fields)
 
         data = [
             entry.value
@@ -53,7 +53,7 @@ class Session(Session):
 
         """
         return [
-            self.get_tbl_row(self, table, index, *fields)
+            self.get_tbl_row(table, index, *fields)
             for index in indexes
         ]
 
@@ -67,7 +67,7 @@ class Session(Session):
 
         NOTE: If no fields are given all fields of the table are fetched
         """
-        snmp_result = self.__get_tbl_row(self, table, index, *fields)
+        snmp_result = self.__get_tbl_row(table, index, *fields)
 
         return {
             fields[i]: entry.value
