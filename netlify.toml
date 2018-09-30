@@ -1,0 +1,7 @@
+[build]
+  base    = "website"
+  publish = "website/public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.37.1"
