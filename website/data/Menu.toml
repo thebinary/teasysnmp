@@ -1,0 +1,8 @@
+[Docs]
+    Name = "Docs"
+    URL = "/docs"
+
+[Examples]
+    Name = "Examples"
+    URL = "/examples"
+
